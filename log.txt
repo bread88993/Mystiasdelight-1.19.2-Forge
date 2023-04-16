@@ -1,0 +1,244 @@
+[22:38:51] [main/message] [cp.mo.mo.Launcher/MODLAUNCHER]:ModLauncher running: args [--
+
+launchTarget, forgeserver, --fml.forgeVersion, 43.2.0, --fml.mcVersion, 1.19.2, --fml.forgeGroup, 
+
+net.minecraftforge, --fml.mcpVersion, 20220805.130853, %*, nogui]
+[22:38:51] [main/message] [cp.mo.mo.Launcher/MODLAUNCHER]:ModLauncher 10.0.8+10.0.8+main.0ef7e830 
+starting: java  17.0.5 by Azul Systems, Inc.; OS liunx Server 2012 R2 arch amd64  
+6.3
+
+[22:38:52] [main/message] [mixin/]:SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/M:/SERVER
+7/tb285512190/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2363!/ 
+Service=ModLauncher Env=SERVER
+[22:38:52]  [ne.mi.fm.lo.mo.ModFileParser/LOADING]:Mod file docker\server
+7\tb285512190\libraries\net\minecraftforge\fmlcore\1.19.2-43.2.0\fmlcore-1.19.2-43.2.0.jar is 
+missing mods.toml file
+[22:38:52]  [ne.mi.fm.lo.mo.ModFileParser/LOADING]:Mod file docker\server
+7\tb285512190\libraries\net\minecraftforge\javafmllanguage\1.19.2-43.2.0\javafmllanguage-1.19.2-
+
+43.2.0.jar is missing mods.toml file
+[22:38:52]  [ne.mi.fm.lo.mo.ModFileParser/LOADING]:Mod file docker\server
+7\tb285512190\libraries\net\minecraftforge\lowcodelanguage\1.19.2-43.2.0\lowcodelanguage-1.19.2-
+
+43.2.0.jar is missing mods.toml file
+[22:38:52]  [ne.mi.fm.lo.mo.ModFileParser/LOADING]:Mod file docker\server
+7\tb285512190\libraries\net\minecraftforge\mclanguage\1.19.2-43.2.0\mclanguage-1.19.2-43.2.0.jar 
+is missing mods.toml file
+
+[22:38:53]  [ne.mi.ja.se.JarSelector/]:Attempted to select a dependency jar for 
+
+JarJar which was passed in as source: flywheel. Using Mod File: docker\server7\tb285512190\mods
+\flywheel-forge-1.19.2-0.6.8.a.jar
+[22:38:53] [main/message] [ne.mi.fm.lo.mo.JarInJarDependencyLocator/]:Found 1 dependencies adding 
+them to mods collection
+
+[22:38:54] [main/message] [mixin/]:Compatibility level set to JAVA_17
+
+[22:38:54] [main/message] [cp.mo.mo.LaunchServiceHandler/MODLAUNCHER]:Launching target 
+'forgeserver' with arguments [%*, nogui]
+
+[22:39:01] [main/message] [minecraft/DataFixers]:Building unoptimized datafixer
+
+[22:39:03] [modloading-worker-0/message] [ne.mi.co.ForgeMod/FORGEMOD]:Forge mod loading,  
+
+43.2.0, for MC 1.19.2 with MCP 20220805.130853
+[22:39:03] [modloading-worker-0/message] [ne.mi.co.MinecraftForge/FORGE]:MinecraftForge v43.2.0 
+Initialized
+
+.minecraftforge.fml.ModLoader.dispatchAndHandleError(ModLoader.java:207)
+
+at LAYER PLUGIN/fmlcore@1.19.2-43.2.0/net.minecraftforge.fml.ModLoader.lambda
+$gatherAndInitializeMods$14(ModLoader.java:185)
+at java.base/java.lang.Iterable.forEach(Unknown Source)
+at LAYER PLUGIN/fmlcore@1.19.2-
+43.2.0/net.minecraftforge.fml.ModLoader.gatherAndInitializeMods(ModLoader.java:185)
+at TRANSFORMER/forge@43.2.0/net.minecraftforge.server.loading.ServerModLoader.load
+
+(ServerModLoader.java:32)
+at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.Main.main(Main.java:113)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+
+at MC-BOOTSTRAP/fmlloader@1.19.2-
+43.2.0/net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$launchService$0
+(CommonServerLaunchHandler.java:29)
+at MC-
+BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch
+(LaunchServiceHandlerDecorator.java:30)
+
+at MC-
+BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.LaunchServiceHandler.launch
+(LaunchServiceHandler.java:53)
+at MC-
+BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.LaunchServiceHandler.launch
+(LaunchServiceHandler.java:71)
+
+at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.Launcher.run
+(Launcher.java:106)
+at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.Launcher.main
+(Launcher.java:77)
+at MC-
+BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept
+
+(BootstrapLaunchConsumer.java:26)
+at MC-
+BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept
+(BootstrapLaunchConsumer.java:23)
+at cpw.mods.bootstraplauncher@1.1.2/cpw.mods.bootstraplauncher.BootstrapLauncher.main
+(BootstrapLauncher.java:141)
+Caused by: java.lang.RuntimeException: Attempted to load class 
+
+net/minecraft/client/player/LocalPlayer for invalid dist DEDICATED_SERVER
+at MC-BOOTSTRAP/fmlloader@1.19.2-
+43.2.0/net.minecraftforge.fml.loading.RuntimeDistCleaner.processClassWithFlags
+(RuntimeDistCleaner.java:57)
+at MC-
+BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.LaunchPluginHandler.offerClassNodeToPl
+
+ugins(LaunchPluginHandler.java:88)
+at MC-
+BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.ClassTransformer.transform
+
+(ClassTransformer.java:120)
+
+at MC-
+BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.TransformingClassLoader.maybeTransform
+ClassBytes(TransformingClassLoader.java:50)
+at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.readerToClass
+(ModuleClassLoader.java:113)
+at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.lambda$findClass$15
+
+(ModuleClassLoader.java:219)
+at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.loadFromModule
+(ModuleClassLoader.java:229)
+at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.findClass
+(ModuleClassLoader.java:219)
+at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.loadClass
+(ModuleClassLoader.java:135)
+
+at java.base/java.lang.ClassLoader.loadClass(Unknown Source)
+... 37 more
+
+ndler.launch(LaunchServiceHandler.java:53) [modlauncher-10.0.8.jar%2354!/:?] {}
+at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) 
+
+[modlauncher-10.0.8.jar%2354!/:?] {}
+at cpw.mods.modlauncher.Launcher.run(Launcher.java:106) [modlauncher-10.0.8.jar%2354!/:?] 
+{}
+at cpw.mods.modlauncher.Launcher.main(Launcher.java:77) [modlauncher-10.0.8.jar%2354!/:?] 
+{}
+at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) 
+
+[modlauncher-10.0.8.jar%2354!/:?] {}
+at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) 
+[modlauncher-10.0.8.jar%2354!/:?] {}
+at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) 
+[bootstraplauncher-1.1.2.jar:?] {}
+Caused by: java.lang.RuntimeException: Attempted to load class 
+
+net/minecraft/client/player/LocalPlayer for invalid dist DEDICATED_SERVER
+at net.minecraftforge.fml.loading.RuntimeDistCleaner.processClassWithFlags
+(RuntimeDistCleaner.java:57) ~[fmlloader-1.19.2-43.2.0.jar%2367!/:1.0] {}
+at cpw.mods.modlauncher.LaunchPluginHandler.offerClassNodeToPlugins
+(LaunchPluginHandler.java:88) ~[modlauncher-10.0.8.jar%2354!/:?] {}
+at cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:120) ~
+
+[modlauncher-10.0.8.jar%2354!/:?] {}
+at cpw.mods.modlauncher.TransformingClassLoader.maybeTransformClassBytes
+
+(TransformingClassLoader.java:50) ~[modlauncher-10.0.8.jar%2354!/:?] {}
+
+at cpw.mods.cl.ModuleClassLoader.readerToClass(ModuleClassLoader.java:113) ~
+[securejarhandler-2.1.4.jar:?] {}
+at cpw.mods.cl.ModuleClassLoader.lambda$findClass$15(ModuleClassLoader.java:219) ~
+[securejarhandler-2.1.4.jar:?] {}
+at cpw.mods.cl.ModuleClassLoader.loadFromModule(ModuleClassLoader.java:229) ~
+
+[securejarhandler-2.1.4.jar:?] {}
+at cpw.mods.cl.ModuleClassLoader.findClass(ModuleClassLoader.java:219) ~
+[securejarhandler-2.1.4.jar:?] {}
+at cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:135) ~
+[securejarhandler-2.1.4.jar:?] {}
+at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:?] {}
+
+... 37 more
+2.0-universal.jar%23124!/:?] {re:classloading,pl:eventbus:A}
+at net.minecraftforge.registries.DeferredRegister.addEntries
+(DeferredRegister.java:388) ~[forge-1.19.2-43.2.0-universal.jar%23124!/:?] {re:classloading}
+at net.minecraftforge.registries.DeferredRegister$EventDispatcher.handleEvent
+(DeferredRegister.java:330) ~[forge-1.19.2-43.2.0-universal.jar%23124!/:?] {re:classloading}
+
+at 
+net.minecraftforge.registries.__EventDispatcher_handleEvent_RegisterEvent.invoke(.dynamic) ~
+[forge-1.19.2-43.2.0-universal.jar%23124!/:?] {re:classloading,pl:eventbus:B}
+at net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:73) ~
+[eventbus-6.0.3.jar%2351!/:?] {}
+at net.minecraftforge.eventbus.EventBus.post(EventBus.java:315) ~[eventbus-
+
+6.0.3.jar%2351!/:?] {}
+at net.minecraftforge.eventbus.EventBus.post(EventBus.java:296) ~[eventbus-
+6.0.3.jar%2351!/:?] {}
+at net.minecraftforge.fml.javafmlmod.FMLModContainer.acceptEvent
+(FMLModContainer.java:107) ~[javafmllanguage-1.19.2-43.2.0.jar%23121!/:?] {}
+... 27 more
+
+Caused by: java.lang.RuntimeException: Attempted to load class 
+net/minecraft/client/player/LocalPlayer for invalid dist DEDICATED_SERVER
+at net.minecraf
+
+(RuntimeDistCleaner.java:57) ~[fmlloader-1.19.2-43.2.0.jar%2367!/:1.0] {}
+
+at cpw.mods.modlauncher.LaunchPluginHandler.offerClassNodeToPlugins
+(LaunchPluginHandler.java:88) ~[modlauncher-10.0.8.jar%2354!/:?] {}
+at cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:120) ~
+[modlauncher-10.0.8.jar%2354!/:?] {}
+at cpw.mods.modlauncher.TransformingClassLoader.maybeTransformClassBytes
+(TransformingClassLoader.java:50) ~[modlauncher-10.0.8.jar%2354!/:?] {}
+
+at cpw.mods.cl.ModuleClassLoader.readerToClass(ModuleClassLoader.java:113) ~
+[securejarhandler-2.1.4.jar:?] {}
+at cpw.mods.cl.ModuleClassLoader.lambda$findClass$15(ModuleClassLoader.java:219) 
+~[securejarhandler-2.1.4.jar:?] {}
+at cpw.mods.cl.ModuleClassLoader.loadFromModule(ModuleClassLoader.java:229) ~
+[securejarhandler-2.1.4.jar:?] {}
+
+at cpw.mods.cl.ModuleClassLoader.findClass(ModuleClassLoader.java:219) ~
+[securejarhandler-2.1.4.jar:?] {}
+at cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:135) ~
+[securejarhandler-2.1.4.jar:?] {}
+at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:?] {}
+at com.bread88993.mystiasdelight.block.entity.ModBlockEntities.lambda$static$0
+
+(ModBlockEntities.java:25) ~[mystiasdelight-1.0.0-1.19.2.jar%23114!/:1.0.0-1.19.2] 
+{re:classloading}
+at net.minecraftforge.registries.DeferredRegister.lambda$addEntries$1
+(DeferredRegister.java:388) ~[forge-1.19.2-43.2.0-universal.jar%23124!/:?] {re:classloading}
+at net.minecraftforge.registries.RegisterEvent.register(RegisterEvent.java:59) ~
+[forge-1.19.2-43.2.0-universal.jar%23124!/:?] {re:classloading,pl:eventbus:A}
+
+at net.minecraftforge.registries.DeferredRegister.addEntries
+(DeferredRegister.java:388) ~[forge-1.19.2-43.2.0-universal.jar%23124!/:?] {re:classloading}
+at net.minecraftforge.registries.DeferredRegister$EventDispatcher.handleEvent
+(DeferredRegister.java:330) ~[forge-1.19.2-43.2.0-universal.jar%23124!/:?] {re:classloading}
+at 
+net.minecraftforge.registries.__EventDispatcher_handleEvent_RegisterEvent.invoke(.dynamic) ~
+
+[forge-1.19.2-43.2.0-universal.jar%23124!/:?] {re:classloading,pl:eventbus:B}
+at net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:73) ~
+[eventbus-6.0.3.jar%2351!/:?] {}
+at net.minecraftforge.eventbus.EventBus.post(EventBus.java:315) ~[eventbus-
+6.0.3.jar%2351!/:?] {}
+at net.minecraftforge.eventbus.EventBus.post(EventBus.java:296) ~[eventbus-
+
+6.0.3.jar%2351!/:?] {}
+at net.minecraftforge.fml.javafmlmod.FMLModContainer.acceptEvent
+(FMLModContainer.java:107) ~[javafmllanguage-1.19.2-43.2.0.jar%23121!/:?] {}
+... 27 more
+[22:39:10] [main/FATAL] [ne.mi.re.GameData/]:Detected errors during registry event dispatch, 
+rolling back to VANILLA state
+
+inecraft/client/player/LocalPlayer for invalid dist DEDICATED_SERVER
+
+at net.minecraftforge.fml.loading.RuntimeDistCleaner.
