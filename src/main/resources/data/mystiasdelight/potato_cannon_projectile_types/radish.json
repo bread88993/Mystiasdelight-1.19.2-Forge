@@ -1,0 +1,9 @@
+{
+  "items": [
+    "mystiasdelight:radish"
+  ],
+  "damage": 4,
+  "reload_ticks": 6,
+  "knockback": 1,
+  "sound_pitch": 0.8
+}

@@ -1,0 +1,21 @@
+{
+  "sortnum": 1,
+  "name": "Miner Salad",
+  "icon": "mystiasdelight:miner_salad",
+  "category": "mystiasdelight:cookingrecipes",
+  "advancement": "minecraft:story/upgrade_tools",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Caves are dangerous area. I know you don't want ot eat bat and spider. Try to make a Miner Salad before killed by spider or rocks!"
+    },
+    {
+      "type": "text",
+      "text": "First you need find some safe mushroom in the cave.No rabbit will secure you in the cave$(br)Some berry in the cave have special flavor!$(br)You need some salt, you can get them from some white stones$(br)You should also make it with your hand and love!"
+    },
+    {
+      "type": "text",
+      "text": "There are not any material merchant in caves so it is hard to get some salt. But miss yamame told me that there will be a lot of salt in some white stones. These stone will be close to purple crystal. If you find them don't forget to mine some salt!"
+    }
+  ]
+}

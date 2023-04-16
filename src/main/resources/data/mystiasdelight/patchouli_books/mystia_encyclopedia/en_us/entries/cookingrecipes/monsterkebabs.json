@@ -1,0 +1,17 @@
+{
+  "sortnum": 4,
+  "name": "Monster Kebabs",
+  "icon": "mystiasdelight:monster_kebabs",
+  "category": "mystiasdelight:cookingrecipes",
+  "advancement": "minecraft:story/obtain_armor",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Some monster meat can be delicious if you deal with them, and you can barbecue them!"
+    },
+    {
+      "type": "text",
+      "text": "First you need some cured spider eyes which will be clean(br)Some cured meat can be added$(br)Salt!$(br)You need a barbecue net to cook, if you don't have fire you can use the lave."
+    }
+  ]
+}

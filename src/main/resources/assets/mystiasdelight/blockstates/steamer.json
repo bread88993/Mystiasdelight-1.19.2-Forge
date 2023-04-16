@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "mystiasdelight:block/steamer" },
+    "facing=east": { "model": "mystiasdelight:block/steamer", "y": 90 },
+    "facing=south": { "model": "mystiasdelight:block/steamer", "y": 180 },
+    "facing=west": { "model": "mystiasdelight:block/steamer", "y": 270 }
+  }
+}

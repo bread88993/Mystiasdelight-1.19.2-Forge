@@ -1,0 +1,11 @@
+{
+  "name": "patchouli.mystiasdelight.book.name",
+  "advancement_namespaces": [
+    "minecraft"
+  ],
+  "landing_text": "patchouli.mystiasdelight.book.landing_text",
+  "model": "mystiasdelight:mystia_encyclopedia",
+  "creative_tab":"mystiasdelighttab_miscellaneous",
+  "show_progress": false,
+  "version": 1
+}

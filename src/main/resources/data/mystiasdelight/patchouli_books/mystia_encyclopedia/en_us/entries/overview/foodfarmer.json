@@ -1,0 +1,15 @@
+{
+  "sortnum": 3,
+  "name": "How to get the material?",
+  "icon": "minecraft:hay_block",
+  "category": "mystiasdelight:overview",
+  "pages": [
+    {
+      "type": "image",
+      "images": [
+        "mystiasdelight:textures/book/foodfarmer.png"
+      ],
+      "text": "You can get some material of this mod by treating with food merchant, you can find them in the village beside the hay block. Some material can be replaced with pam's harvest's crop.But you can get some material from some special way."
+    }
+  ]
+}

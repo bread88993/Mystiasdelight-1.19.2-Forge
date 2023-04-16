@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "mystiasdelight:block/wok" },
+    "facing=east": { "model": "mystiasdelight:block/wok", "y": 90 },
+    "facing=south": { "model": "mystiasdelight:block/wok", "y": 180 },
+    "facing=west": { "model": "mystiasdelight:block/wok", "y": 270 }
+  }
+}

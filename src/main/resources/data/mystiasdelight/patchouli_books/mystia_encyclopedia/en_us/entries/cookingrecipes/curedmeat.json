@@ -1,0 +1,17 @@
+{
+  "sortnum": 3,
+  "name": "Cured Meat",
+  "icon": "mystiasdelight:cured_meat",
+  "category": "mystiasdelight:cookingrecipes",
+  "advancement": "minecraft:adventure/kill_a_mob",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Rotten meat is a shame, I usually cure them and sell them to youkai, and they can not find it"
+    },
+    {
+      "type": "text",
+      "text": "First you need some old meat$(br)Add some salt!$(br)You should cover it by your hand, it may take some times"
+    }
+  ]
+}

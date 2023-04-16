@@ -1,0 +1,17 @@
+{
+  "sortnum": 2,
+  "name": "Miner Sandwich",
+  "icon": "mystiasdelight:miner_sandwich",
+  "category": "mystiasdelight:cookingrecipes",
+  "advancement": "minecraft:story/smelt_iron",
+  "pages": [
+    {
+      "type": "text",
+      "text": "It is shame to waste some bread. You can use them to make some delicious sandwich when discover the dark cave"
+    },
+    {
+      "type": "text",
+      "text": "Just like miner salad, I'd like to add some mushroom$(br)Don't forget some berry in the cave!$(br)Finally you need a bread!$(br)Sandwich does not need the heat to make!"
+    }
+  ]
+}

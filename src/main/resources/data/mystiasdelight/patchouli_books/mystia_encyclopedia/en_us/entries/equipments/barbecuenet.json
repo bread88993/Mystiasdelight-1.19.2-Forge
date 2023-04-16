@@ -1,0 +1,19 @@
+{
+  "sortnum": 0,
+  "name": "Barbecue Net",
+  "icon": "mystiasdelight:barbecuenet",
+  "category": "mystiasdelight:equipments",
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "mystiasdelight:barbecuenet",
+      "link_recipe": true,
+      "text": "Barbecue Net is a kitchen utensil that can be used for making some barbecue cuisine such as skewers"
+    },
+    {
+      "type": "crafting",
+      "recipe": "mystiasdelight:barbecuenet_craft_recipe",
+      "text": "Barbecue Net need a heat source under the block, so you may need place a farmer's delight stove or a magma block under it"
+    }
+  ]
+}

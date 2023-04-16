@@ -1,0 +1,17 @@
+{
+  "sortnum": 6,
+  "name": "鲜肉烤串",
+  "icon": "mystiasdelight:flesh_kebabs",
+  "category": "mystiasdelight:cookingrecipes",
+  "advancement": "minecraft:story/iron_tools",
+  "pages": [
+    {
+      "type": "text",
+      "text": "经常吃腐败的东西可不是个办法，新鲜的肉不管怎么样都很好吃。露米娅小姐每次都低挡不住生肉的诱惑，所以她推荐了这道菜给我。"
+    },
+    {
+      "type": "text",
+      "text": "牛肉，妖怪们觉得牛肉是最适合生吃的$(br)大葱，生的大葱可以为生肉增添别样风味$(br)盐，不然和吃生肉没什么区别$(br)肉串需要拿火烤一下杀菌，但注意不要烤熟"
+    }
+  ]
+}

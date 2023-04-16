@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:fishing",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "mystiasdelight:eel",
+          "weight": 40
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mystiasdelight:shrimp",
+          "weight": 25
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mystiasdelight:crab",
+          "weight": 15
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mystiasdelight:octopus",
+          "weight": 10
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

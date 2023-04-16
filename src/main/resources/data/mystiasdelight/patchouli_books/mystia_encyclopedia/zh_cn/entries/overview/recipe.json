@@ -1,0 +1,12 @@
+{
+  "sortnum": 4,
+  "name": "如何解锁食谱？",
+  "icon": "minecraft:book",
+  "category": "mystiasdelight:overview",
+  "pages": [
+    {
+      "type": "text",
+      "text": "你可以通过解锁原版进度来解锁食谱，刚开始食谱会很好猜而且好做"
+    }
+  ]
+}

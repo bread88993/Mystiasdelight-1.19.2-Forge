@@ -1,0 +1,21 @@
+{
+  "sortnum": 7,
+  "name": "Mapo Tofu",
+  "icon": "mystiasdelight:mapo_tofu",
+  "category": "mystiasdelight:cookingrecipes",
+  "advancement": "minecraft:story/deflect_arrow",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Miss Meiling always want to eat some traditional chinese food in my restaurant. She likes to eat some hot tofu cuisine, so I make mapo tofu for her."
+    },
+    {
+      "type": "text",
+      "text": "tofu, the soul of mapo tofu!$(br)some minced beef, it is different from traditional mapo tofu$(br)salt, or it will be boring$(br)Chili pepper, because mapo tofu is hot!$(br)You need a wok and patient"
+    },
+    {
+      "type": "text",
+      "text": "Some spider will carry tofu, you can get tofu from them!"
+    }
+  ]
+}

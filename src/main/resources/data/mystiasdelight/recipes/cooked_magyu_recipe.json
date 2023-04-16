@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "mystiasdelight:wagyu"
+  },
+  "result": "mystiasdelight:cooked_wagyu",
+  "experience": 0.35,
+  "cookingtime": 200
+}

@@ -1,0 +1,18 @@
+{
+  "type": "mystiasdelight:handmake",
+  "ingredients": [
+    {
+      "item": "minecraft:bread"
+    },
+    {
+      "item": "minecraft:brown_mushroom"
+    },
+    {
+      "item": "minecraft:glow_berries"
+    }
+  ],
+  "output": {
+    "item":"mystiasdelight:miner_sandwich"
+  },
+  "cookingtime": 150
+}

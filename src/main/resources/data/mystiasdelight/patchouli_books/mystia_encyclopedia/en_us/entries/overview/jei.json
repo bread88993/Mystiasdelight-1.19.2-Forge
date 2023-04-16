@@ -1,0 +1,15 @@
+{
+  "sortnum": 2,
+  "name": "What's happening to my JEI?",
+  "icon": "minecraft:barrier",
+  "category": "mystiasdelight:overview",
+  "pages": [
+    {
+      "type": "image",
+      "images": [
+        "mystiasdelight:textures/book/jei.png"
+      ],
+      "text": "<That lady> take your memory of cooking, so you can not find the recipe of cuisine. But she also give you some detail to the cuisine"
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "mystiasdelight:block/barbecuenet" },
+    "facing=east": { "model": "mystiasdelight:block/barbecuenet", "y": 90 },
+    "facing=south": { "model": "mystiasdelight:block/barbecuenet", "y": 180 },
+    "facing=west": { "model": "mystiasdelight:block/barbecuenet", "y": 270 }
+  }
+}

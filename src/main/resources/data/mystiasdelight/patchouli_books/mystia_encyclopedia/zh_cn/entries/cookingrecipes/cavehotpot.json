@@ -1,0 +1,21 @@
+{
+  "sortnum": 5,
+  "name": "洞穴麻辣烫",
+  "icon": "mystiasdelight:cave_hotpot",
+  "category": "mystiasdelight:cookingrecipes",
+  "advancement": "minecraft:story/lava_bucket",
+  "pages": [
+    {
+      "type": "text",
+      "text": "一想到旧地狱的岩浆，我就想到了滚烫的麻辣烫，即使在洞穴里也能做出好吃的麻辣烫！"
+    },
+    {
+      "type": "text",
+      "text": "首先需要肉，把腌制的肉放进去能增添不少风味！$(br)辣椒是麻辣烫的灵魂！$(br)盐，重盐重辣才是麻辣烫$(br)加一些葱花点缀能让菜更好看！$(br)麻辣烫需要高压锅来烹饪，做越久越好吃！"
+    },
+    {
+      "type": "text",
+      "text": "在洞穴里很难找到蔬菜，但是有一些会爆炸的妖怪会随身携带比较刺激的食材比如说大葱，如果把他们点燃还能获得辣椒！用小刀击杀他们来获得这些食材！"
+    }
+  ]
+}

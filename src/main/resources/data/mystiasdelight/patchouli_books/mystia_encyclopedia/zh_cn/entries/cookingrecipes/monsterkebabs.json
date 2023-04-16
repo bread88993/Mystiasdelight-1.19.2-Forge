@@ -1,0 +1,17 @@
+{
+  "sortnum": 4,
+  "name": "怪物肉串",
+  "icon": "mystiasdelight:monster_kebabs",
+  "category": "mystiasdelight:cookingrecipes",
+  "advancement": "minecraft:story/obtain_armor",
+  "pages": [
+    {
+      "type": "text",
+      "text": "一些妖兽的肉经过处理后也能变得很好吃，把他们串起来烤着更好吃！"
+    },
+    {
+      "type": "text",
+      "text": "首先你需要腌制过的蜘蛛肉，腌制后能杀灭大量细菌$(br)腌制过的肉也可以串起来一起烤$(br)盐，不然就没味了！$(br)你需要烤架来烤他，如果没有火你可以尝试把烧烤网放到岩浆上"
+    }
+  ]
+}

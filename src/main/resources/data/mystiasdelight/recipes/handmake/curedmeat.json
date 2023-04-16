@@ -1,0 +1,15 @@
+{
+  "type": "mystiasdelight:handmake",
+  "ingredients": [
+    {
+      "item": "minecraft:rotten_flesh"
+    },
+    {
+      "tag": "forge:salt"
+    }
+  ],
+  "output": {
+    "item":"mystiasdelight:cured_meat"
+  },
+  "cookingtime": 400
+}

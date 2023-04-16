@@ -1,0 +1,19 @@
+{
+  "sortnum": 3,
+  "name": "Wok",
+  "icon": "mystiasdelight:wok",
+  "category": "mystiasdelight:equipments",
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "mystiasdelight:wok",
+      "link_recipe": true,
+      "text": "Wok is a kitchen utensil that can be used for stir frying some cuisine"
+    },
+    {
+      "type": "crafting",
+      "recipe": "mystiasdelight:wok_craft_recipe",
+      "text": "Wok need a heat source under the block, so you may need place a farmer's delight stove or a magma block under it"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "sortnum": 8,
+  "name": "苹果冰冰",
+  "icon": "mystiasdelight:apple_ice",
+  "category": "mystiasdelight:cookingrecipes",
+  "advancement": "minecraft:story/form_obsidian",
+  "pages": [
+    {
+      "type": "text",
+      "text": "在夏天，我常常为客人们准备冰点。冰点配上苹果可以解暑甚至抵挡火焰！"
+    },
+    {
+      "type": "text",
+      "text": "首先，你需要雪去变得冰冰!$(br)苹果，一个充满魔力的水果$(br)糖，会让他甜甜的！$(br)你需要手工去做！"
+    }
+  ]
+}

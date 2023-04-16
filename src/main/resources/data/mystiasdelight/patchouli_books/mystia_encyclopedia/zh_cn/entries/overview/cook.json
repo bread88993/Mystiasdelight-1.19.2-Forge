@@ -1,0 +1,16 @@
+{
+  "sortnum": 1,
+  "name": "如何去烹饪",
+  "icon": "mystiasdelight:pressurecooker",
+  "category": "mystiasdelight:overview",
+  "pages": [
+    {
+      "type": "text",
+      "text": "你可以用五种厨具去烹饪，本模组的菜肴只能用这几种工具烹饪"
+    },
+    {
+      "type": "text",
+      "text": "这本书的食谱会告诉你菜肴所需的食材，但有时他们会变得模棱两可。$(br)一些不像是食材的东西也有可能是材料！所以不用怀疑自己！"
+    }
+  ]
+}

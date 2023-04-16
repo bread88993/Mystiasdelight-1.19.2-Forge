@@ -1,0 +1,17 @@
+{
+  "sortnum": 0,
+  "name": "野地沙拉",
+  "icon": "mystiasdelight:wild_salad",
+  "category": "mystiasdelight:cookingrecipes",
+  "advancement": "minecraft:story/mine_stone",
+  "pages": [
+    {
+      "type": "text",
+      "text": "当没有买到食材时，我常常会用一些便宜的沙拉来打发客人，比如野地沙拉。"
+    },
+    {
+      "type": "text",
+      "text": "树上的新鲜水果可以采集一些放进去$(br)随处可见的黄色小花，我们夜雀不太喜欢吃但是客人好像很喜欢？$(br)手工制作，你需要你的料理台而且并不需要很长时间"
+    }
+  ]
+}

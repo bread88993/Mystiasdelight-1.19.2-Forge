@@ -1,0 +1,24 @@
+{
+  "type": "mystiasdelight:frying",
+  "ingredients": [
+    {
+      "item": "mystiasdelight:tofu"
+    },
+    {
+      "tag": "forge:salt"
+    },
+    {
+      "tag": "forge:crops/chilipepper"
+    },
+    {
+      "item": "farmersdelight:minced_beef"
+    },
+    {
+      "item": "minecraft:bowl"
+    }
+  ],
+  "output": {
+    "item":"mystiasdelight:mapo_tofu"
+  },
+  "cookingtime": 800
+}

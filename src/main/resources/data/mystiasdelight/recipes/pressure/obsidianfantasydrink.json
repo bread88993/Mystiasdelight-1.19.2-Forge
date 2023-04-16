@@ -1,0 +1,30 @@
+{
+  "type": "mystiasdelight:pressure",
+  "ingredients": [
+    {
+      "item": "minecraft:gold_nugget"
+    },
+    {
+      "item": "minecraft:prismarine_crystals"
+    },
+    {
+      "item": "minecraft:apple"
+    },
+    {
+      "item": "minecraft:blaze_powder"
+    },
+    {
+      "tag": "forge:fruits/peach"
+    },
+    {
+      "item": "mystiasdelight:dream_material"
+    },
+    {
+      "item": "minecraft:glass_bottle"
+    }
+  ],
+  "output": {
+    "item":"mystiasdelight:obsidian_fantasy_drink"
+  },
+  "cookingtime": 2400
+}

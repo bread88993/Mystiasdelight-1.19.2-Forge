@@ -1,0 +1,19 @@
+{
+  "sortnum": 2,
+  "name": "蒸锅",
+  "icon": "mystiasdelight:steamer",
+  "category": "mystiasdelight:equipments",
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "mystiasdelight:steamer",
+      "link_recipe": true,
+      "text": "蒸锅可以用于制作一些糕点或者蒸一些鱼和肉"
+    },
+    {
+      "type": "crafting",
+      "recipe": "mystiasdelight:steamer_craft_recipe",
+      "text": "蒸锅需要一个热源，所以你可能会需要在底下放置一个炉灶或者岩浆块"
+    }
+  ]
+}

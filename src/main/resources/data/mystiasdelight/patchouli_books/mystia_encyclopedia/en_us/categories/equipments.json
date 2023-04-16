@@ -1,0 +1,6 @@
+{
+  "sortnum": 2,
+  "name": "Kitchen Utensils",
+  "description": "There records the equipment you can used to cook",
+  "icon": "mystiasdelight:pressurecooker{ModelId:'mystiasdelight:pressurecooker'}"
+}

@@ -1,0 +1,19 @@
+{
+  "sortnum": 1,
+  "name": "Pressure Cooker",
+  "icon": "mystiasdelight:pressurecooker",
+  "category": "mystiasdelight:equipments",
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "mystiasdelight:pressurecooker",
+      "link_recipe": true,
+      "text": "Pressure Cooker is a kitchen utensil that can be used for stewing the meat or soup"
+    },
+    {
+      "type": "crafting",
+      "recipe": "mystiasdelight:pressurecooker_craft_recipe",
+      "text": "Pressure Cooker need a heat source under the block, so you may need place a farmer's delight stove or a magma block under it"
+    }
+  ]
+}

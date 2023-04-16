@@ -1,0 +1,6 @@
+{
+  "sortnum": 1,
+  "name": "Cooking Recipes",
+  "description": "There records the recipes you have unlocked, you can unlock the recipe by unlock the Minecraft vanilla advancements",
+  "icon": "mystiasdelight:wild_salad{ModelId:'mystiasdelight:wild_salad'}"
+}

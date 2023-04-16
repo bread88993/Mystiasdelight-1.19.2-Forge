@@ -1,0 +1,6 @@
+{
+  "sortnum": 0,
+  "name": "总览",
+  "description": "在这里你可以知道如何去游玩这个模组！",
+  "icon": "minecraft:book{ModelId:'minecraft:book'}"
+}

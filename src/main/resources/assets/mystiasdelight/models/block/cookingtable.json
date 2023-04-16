@@ -1,0 +1,61 @@
+{
+  "credit": "Made with Blockbench",
+  "texture_size": [64, 64],
+  "textures": {
+    "0": "mystiasdelight:cookequipment/cookingtable",
+    "particle": "minecraft:block/stripped_spruce_log"
+  },
+  "elements": [
+    {
+      "from": [1, 0, 2],
+      "to": [15, 0.8, 14],
+      "rotation": {"angle": 0, "axis": "y", "origin": [1, 0, 2]},
+      "faces": {
+        "north": {"uv": [2.5, 5.75, 6, 5.75], "texture": "#0"},
+        "east": {"uv": [-0.5, 5.75, 2.5, 5.75], "texture": "#0"},
+        "south": {"uv": [9, 5.75, 12.5, 5.75], "texture": "#0"},
+        "west": {"uv": [6, 5.75, 9, 5.75], "texture": "#0"},
+        "up": {"uv": [6, 5.75, 2.5, 2.75], "texture": "#0"},
+        "down": {"uv": [9.5, 2.75, 6, 5.75], "texture": "#0"}
+      }
+    }
+  ],
+  "display": {
+    "thirdperson_righthand": {
+      "rotation": [99, 0, 0],
+      "translation": [0, 1, 3.25],
+      "scale": [0.4, 0.4, 0.4]
+    },
+    "thirdperson_lefthand": {
+      "rotation": [100, 0, 0],
+      "translation": [0, 1, 3.5],
+      "scale": [0.4, 0.4, 0.4]
+    },
+    "firstperson_righthand": {
+      "translation": [0, 7.25, 0]
+    },
+    "firstperson_lefthand": {
+      "translation": [0, 5.5, 0]
+    },
+    "ground": {
+      "scale": [0.4, 0.4, 0.4]
+    },
+    "gui": {
+      "rotation": [30, -30, 0],
+      "translation": [0, 5, 0],
+      "scale": [0.8, 0.8, 0.8]
+    },
+    "fixed": {
+      "rotation": [-90, 0, 0],
+      "translation": [0, 0, -8.25]
+    }
+  },
+  "groups": [
+    {
+      "name": "VoxelShapes",
+      "origin": [8, 8, 8],
+      "color": 0,
+      "children": [0]
+    }
+  ]
+}

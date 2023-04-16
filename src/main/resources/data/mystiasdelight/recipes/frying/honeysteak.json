@@ -1,0 +1,21 @@
+{
+  "type": "mystiasdelight:frying",
+  "ingredients": [
+    {
+      "item": "minecraft:beef"
+    },
+    {
+      "item": "minecraft:honey_bottle"
+    },
+    {
+      "tag": "forge:butter"
+    },
+    {
+      "item": "minecraft:bowl"
+    }
+  ],
+  "output": {
+    "item":"mystiasdelight:honey_steak"
+  },
+  "cookingtime": 1000
+}

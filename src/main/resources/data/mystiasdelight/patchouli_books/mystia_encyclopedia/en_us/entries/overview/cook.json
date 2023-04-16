@@ -1,0 +1,16 @@
+{
+  "sortnum": 1,
+  "name": "How to cook",
+  "icon": "mystiasdelight:pressurecooker",
+  "category": "mystiasdelight:overview",
+  "pages": [
+    {
+      "type": "text",
+      "text": "You can cook the meal with 5 type of kitchen utensils, you can find them in kitchen utensils category. The meal in this mod can only cooked by these tools"
+    },
+    {
+      "type": "text",
+      "text": "The recipes in this book will tell you the material of cuisine, but sometimes it will be ambiguous.$(br)Something doesn't like the cooking material might also be added to your cuisine, so do not doubt yourself!"
+    }
+  ]
+}

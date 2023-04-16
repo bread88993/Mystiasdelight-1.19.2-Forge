@@ -1,0 +1,6 @@
+{
+  "sortnum": 1,
+  "name": "烹饪配方",
+  "description": "这里记录了所有你解锁过的食谱，你可以通过解锁原版成就来解锁新的食谱",
+  "icon": "mystiasdelight:wild_salad{ModelId:'mystiasdelight:wild_salad'}"
+}

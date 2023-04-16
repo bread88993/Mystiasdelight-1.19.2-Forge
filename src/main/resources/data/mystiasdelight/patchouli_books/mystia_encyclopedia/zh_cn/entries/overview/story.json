@@ -1,0 +1,19 @@
+{
+  "sortnum": 0,
+  "name": "故事",
+  "icon": "minecraft:book",
+  "category": "mystiasdelight:overview",
+  "pages": [
+    {
+      "type": "image",
+      "images": [
+        "mystiasdelight:textures/book/story.png"
+      ],
+      "text": "你是米斯蒂娅的帮手，但你想要提升现有的厨艺所以你准备离开幻想乡。$(br)为了得到离开幻想乡的许可，你用你的部分记忆与『那位大人』做了交换"
+    },
+    {
+      "type": "text",
+      "text": "在你离开时，米斯蒂娅给了你这本与帕秋莉合著的记载了世间珍奇的魔法手册。$(br)你的旅途开始了，你能找回你的记忆并且做出不可思议的菜肴吗？"
+    }
+  ]
+}

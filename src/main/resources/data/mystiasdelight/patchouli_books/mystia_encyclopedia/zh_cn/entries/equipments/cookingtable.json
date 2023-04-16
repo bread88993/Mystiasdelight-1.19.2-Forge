@@ -1,0 +1,19 @@
+{
+  "sortnum": 4,
+  "name": "料理台",
+  "icon": "mystiasdelight:cookingtable",
+  "category": "mystiasdelight:equipments",
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "mystiasdelight:cookingtable",
+      "link_recipe": true,
+      "text": "料理台可以用于制作一些手工料理"
+    },
+    {
+      "type": "crafting",
+      "recipe": "mystiasdelight:cookingtable_craft_recipe",
+      "text": "料理台不需要热源，你可以把它放到任何想放到的地方"
+    }
+  ]
+}

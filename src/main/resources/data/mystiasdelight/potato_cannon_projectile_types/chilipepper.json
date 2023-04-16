@@ -1,0 +1,9 @@
+{
+  "items": [
+    "mystiasdelight:chilipepper"
+  ],
+  "damage": 6,
+  "reload_ticks": 8,
+  "knockback": 1,
+  "sound_pitch": 0.4
+}

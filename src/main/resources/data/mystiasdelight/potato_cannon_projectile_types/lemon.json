@@ -1,0 +1,9 @@
+{
+  "items": [
+    "mystiasdelight:lemon"
+  ],
+  "damage": 7,
+  "reload_ticks": 12,
+  "knockback": 1,
+  "sound_pitch": 0.9
+}

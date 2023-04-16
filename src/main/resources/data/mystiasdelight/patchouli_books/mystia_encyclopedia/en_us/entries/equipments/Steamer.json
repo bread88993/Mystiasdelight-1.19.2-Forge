@@ -1,0 +1,19 @@
+{
+  "sortnum": 2,
+  "name": "Steamer",
+  "icon": "mystiasdelight:steamer",
+  "category": "mystiasdelight:equipments",
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "mystiasdelight:steamer",
+      "link_recipe": true,
+      "text": "Steamer is a kitchen utensil that can be used for steaming the fish and meat or to make some pastry"
+    },
+    {
+      "type": "crafting",
+      "recipe": "mystiasdelight:steamer_craft_recipe",
+      "text": "Steamer need a heat source under the block, so you may need place a farmer's delight stove or a magma block under it"
+    }
+  ]
+}

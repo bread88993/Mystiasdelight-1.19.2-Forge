@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "mystiasdelight:block/pressurecooker" },
+    "facing=east": { "model": "mystiasdelight:block/pressurecooker", "y": 90 },
+    "facing=south": { "model": "mystiasdelight:block/pressurecooker", "y": 180 },
+    "facing=west": { "model": "mystiasdelight:block/pressurecooker", "y": 270 }
+  }
+}

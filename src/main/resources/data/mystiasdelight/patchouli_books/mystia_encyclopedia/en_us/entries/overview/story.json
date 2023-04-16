@@ -1,0 +1,19 @@
+{
+  "sortnum": 0,
+  "name": "Story",
+  "icon": "minecraft:book",
+  "category": "mystiasdelight:overview",
+  "pages": [
+    {
+      "type": "image",
+      "images": [
+        "mystiasdelight:textures/book/story.png"
+      ],
+      "text": "You are a partner of Mystia, you managed a restaurant with her. But you want to improve your cooking skill so you exit gensokyo.$(br)To get the approving to leave the gensokyo, you exchange some cooking memories with <that lady>"
+    },
+    {
+      "type": "text",
+      "text": "After you leave the gensokyo, Mystia and Patchouli give you this book that record the fantasy cuisines in the world$(br)Your journey begins, can you find your memory and make unbelievable cuisine?"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "sortnum": 1,
+  "name": "高压锅",
+  "icon": "mystiasdelight:pressurecooker",
+  "category": "mystiasdelight:equipments",
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "mystiasdelight:pressurecooker",
+      "link_recipe": true,
+      "text": "高压锅可以用来煲汤或者做肉或一些炖菜"
+    },
+    {
+      "type": "crafting",
+      "recipe": "mystiasdelight:pressurecooker_craft_recipe",
+      "text": "高压锅需要一个热源，所以你可能会需要在底下放置一个炉灶或者岩浆块"
+    }
+  ]
+}

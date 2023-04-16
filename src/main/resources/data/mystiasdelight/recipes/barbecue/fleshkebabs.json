@@ -1,0 +1,21 @@
+{
+  "type": "mystiasdelight:barbecue",
+  "ingredients": [
+    {
+      "item": "minecraft:beef"
+    },
+    {
+      "tag": "forge:crops/scallion"
+    },
+    {
+      "tag": "forge:salt"
+    },
+    {
+      "item": "minecraft:stick"
+    }
+  ],
+  "output": {
+    "item":"mystiasdelight:flesh_kebabs"
+  },
+  "cookingtime": 50
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "forge:salt"
+    },
+    {
+      "item": "mystiasdelight:cheese"
+    },
+    {
+      "item": "mystiasdelight:cheese"
+    },
+    {
+      "item": "mystiasdelight:cheese"
+    }
+  ],
+  "result": {
+    "item": "mystiasdelight:butter",
+    "count": 3
+  }
+}

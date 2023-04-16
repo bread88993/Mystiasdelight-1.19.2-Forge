@@ -1,0 +1,15 @@
+{
+  "sortnum": 2,
+  "name": "我的JEI咋了？",
+  "icon": "minecraft:barrier",
+  "category": "mystiasdelight:overview",
+  "pages": [
+    {
+      "type": "image",
+      "images": [
+        "mystiasdelight:textures/book/jei.png"
+      ],
+      "text": "『那位大人』带走了你的记忆，并且带走了JEI的支持，但是她仍给了你一些线索。"
+    }
+  ]
+}

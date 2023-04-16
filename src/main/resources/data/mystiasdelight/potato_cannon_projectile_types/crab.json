@@ -1,0 +1,9 @@
+{
+  "items": [
+    "mystiasdelight:crab"
+  ],
+  "damage": 20,
+  "reload_ticks": 60,
+  "knockback": 4,
+  "sound_pitch": 1.5
+}

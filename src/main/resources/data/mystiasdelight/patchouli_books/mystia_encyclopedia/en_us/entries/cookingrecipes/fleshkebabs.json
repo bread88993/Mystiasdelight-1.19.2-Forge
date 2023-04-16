@@ -1,0 +1,17 @@
+{
+  "sortnum": 6,
+  "name": "Flesh Kebabs",
+  "icon": "mystiasdelight:flesh_kebabs",
+  "category": "mystiasdelight:cookingrecipes",
+  "advancement": "minecraft:story/iron_tools",
+  "pages": [
+    {
+      "type": "text",
+      "text": "It is bad to always eat rotten meat,flesh is delicious whatever how you cook it. Miss Rumia can't stand the temptation of flesh, so she recommend this to me."
+    },
+    {
+      "type": "text",
+      "text": "beef, youkai think beef is good to eat raw$(br)Scallion, raw scallion will provide special flavor$(br)salt, or it will taste like paper$(br)You need fire and barbecue net to cook, but do not make it overcooked"
+    }
+  ]
+}

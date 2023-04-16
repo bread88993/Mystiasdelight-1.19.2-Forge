@@ -1,0 +1,9 @@
+{
+  "items": [
+    "mystiasdelight:peach"
+  ],
+  "damage": 8,
+  "reload_ticks": 10,
+  "knockback": 3,
+  "sound_pitch": 1.2
+}

@@ -1,0 +1,9 @@
+{
+  "items": [
+    "mystiasdelight:sweetpotato"
+  ],
+  "damage": 12,
+  "reload_ticks": 24,
+  "knockback": 3,
+  "sound_pitch": 1.2
+}

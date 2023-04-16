@@ -1,0 +1,21 @@
+{
+  "type": "mystiasdelight:barbecue",
+  "ingredients": [
+    {
+      "item": "minecraft:fermented_spider_eye"
+    },
+    {
+      "item": "mystiasdelight:cured_meat"
+    },
+    {
+      "tag": "forge:salt"
+    },
+    {
+      "item": "minecraft:stick"
+    }
+  ],
+  "output": {
+    "item":"mystiasdelight:monster_kebabs"
+  },
+  "cookingtime": 800
+}

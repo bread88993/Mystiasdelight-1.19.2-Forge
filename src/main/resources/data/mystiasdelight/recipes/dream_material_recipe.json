@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "minecraft:pink_bed"
+  },
+  "result": "mystiasdelight:dream_material",
+  "experience": 0.35,
+  "cookingtime": 200
+}

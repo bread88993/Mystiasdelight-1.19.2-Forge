@@ -1,0 +1,21 @@
+{
+  "sortnum": 1,
+  "name": "矿工沙拉",
+  "icon": "mystiasdelight:miner_salad",
+  "category": "mystiasdelight:cookingrecipes",
+  "advancement": "minecraft:story/upgrade_tools",
+  "pages": [
+    {
+      "type": "text",
+      "text": "洞穴是危险的地方，没有人想想啃蝙蝠和蜘蛛。在被石头砸死或被蜘蛛吃掉之前试试矿工沙拉吧！"
+    },
+    {
+      "type": "text",
+      "text": "你需要一些安全的蘑菇，在野外中毒可没兔子救你。$(br)洞穴里的浆果能增添别样风味！$(br)你需要一些盐$(br)这是一个沙拉，不需要用火去烤它！"
+    },
+    {
+      "type": "text",
+      "text": "地洞里可没有食材商人，想获得盐是一件难事，但是山女小姐曾告诉我白色的石头里富含大量的盐，这些白色的石头一般会靠近好看的紫水晶，如果发现晶洞一定要记得开采一些盐！"
+    }
+  ]
+}

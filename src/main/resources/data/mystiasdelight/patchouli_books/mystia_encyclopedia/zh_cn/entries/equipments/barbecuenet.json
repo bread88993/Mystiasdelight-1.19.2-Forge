@@ -1,0 +1,19 @@
+{
+  "sortnum": 0,
+  "name": "烧烤网",
+  "icon": "mystiasdelight:barbecuenet",
+  "category": "mystiasdelight:equipments",
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "mystiasdelight:barbecuenet",
+      "link_recipe": true,
+      "text": "烧烤网可以用于烹饪烧烤类食品，比如一些烤串"
+    },
+    {
+      "type": "crafting",
+      "recipe": "mystiasdelight:barbecuenet_craft_recipe",
+      "text": "烧烤网需要一个热源，所以你可能会需要在底下放置一个炉灶或者岩浆块"
+    }
+  ]
+}

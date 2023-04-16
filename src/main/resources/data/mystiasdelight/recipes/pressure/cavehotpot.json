@@ -1,0 +1,24 @@
+{
+  "type": "mystiasdelight:pressure",
+  "ingredients": [
+    {
+      "item": "mystiasdelight:cured_meat"
+    },
+    {
+      "tag": "forge:salt"
+    },
+    {
+      "tag": "forge:crops/chilipepper"
+    },
+    {
+      "tag": "forge:crops/scallion"
+    },
+    {
+      "item": "minecraft:bucket"
+    }
+  ],
+  "output": {
+    "item":"mystiasdelight:cave_hotpot"
+  },
+  "cookingtime": 1600
+}

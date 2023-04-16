@@ -1,0 +1,9 @@
+{
+  "items": [
+    "mystiasdelight:truffle"
+  ],
+  "damage": 20,
+  "reload_ticks": 60,
+  "knockback": 3,
+  "sound_pitch": 1.2
+}

@@ -1,0 +1,15 @@
+{
+  "sortnum": 3,
+  "name": "我该如何获得食材？",
+  "icon": "minecraft:hay_block",
+  "category": "mystiasdelight:overview",
+  "pages": [
+    {
+      "type": "image",
+      "images": [
+        "mystiasdelight:textures/book/foodfarmer.png"
+      ],
+      "text": "你可以与食材商人交易本模组的食材，你可以在村庄的稻草方块旁发现他们，你也可以用潘马斯的作物进行替代。有一些食材可以通过特别的方法得到。"
+    }
+  ]
+}

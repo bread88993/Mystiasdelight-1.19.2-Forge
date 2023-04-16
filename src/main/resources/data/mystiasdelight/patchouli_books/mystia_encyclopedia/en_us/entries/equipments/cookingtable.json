@@ -1,0 +1,19 @@
+{
+  "sortnum": 4,
+  "name": "Cooking Table",
+  "icon": "mystiasdelight:cookingtable",
+  "category": "mystiasdelight:equipments",
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "mystiasdelight:cookingtable",
+      "link_recipe": true,
+      "text": "Cooking table is a kitchen utensil that can be used for some hand make cuisine"
+    },
+    {
+      "type": "crafting",
+      "recipe": "mystiasdelight:cookingtable_craft_recipe",
+      "text": "Cooking table doesn't need a heat source under the block, so you can place it wherever you want"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "type": "mystiasdelight:handmake",
+  "ingredients": [
+    {
+      "item": "minecraft:snowball"
+    },
+    {
+      "item": "minecraft:apple"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "minecraft:glass_bottle"
+    }
+  ],
+  "output": {
+    "item":"mystiasdelight:apple_ice"
+  },
+  "cookingtime":300
+}

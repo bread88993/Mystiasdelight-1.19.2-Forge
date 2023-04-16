@@ -1,0 +1,9 @@
+{
+  "items": [
+    "mystiasdelight:cucumber"
+  ],
+  "damage": 10,
+  "reload_ticks": 6,
+  "knockback": 1,
+  "sound_pitch": 1.2
+}

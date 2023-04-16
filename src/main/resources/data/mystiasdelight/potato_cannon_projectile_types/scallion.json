@@ -1,0 +1,9 @@
+{
+  "items": [
+    "mystiasdelight:scallion"
+  ],
+  "damage": 8,
+  "reload_ticks": 12,
+  "knockback": 2,
+  "sound_pitch": 0.8
+}

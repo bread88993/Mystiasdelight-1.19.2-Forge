@@ -1,0 +1,17 @@
+{
+  "sortnum": 2,
+  "name": "矿工三明治",
+  "icon": "mystiasdelight:miner_sandwich",
+  "category": "mystiasdelight:cookingrecipes",
+  "advancement": "minecraft:story/smelt_iron",
+  "pages": [
+    {
+      "type": "text",
+      "text": "面包扔了怪可惜的，用他们来制作美味的矿工三明治吧！"
+    },
+    {
+      "type": "text",
+      "text": "就像沙拉一样，我喜欢往里面加点蘑菇$(br)矿洞里的新鲜浆果一定要加一点$(br)最后准备好你找到的大面包把他们加起来$(br)三明治不需要加热哦"
+    }
+  ]
+}

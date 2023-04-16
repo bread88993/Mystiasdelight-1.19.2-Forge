@@ -1,0 +1,19 @@
+{
+  "sortnum": 3,
+  "name": "油锅",
+  "icon": "mystiasdelight:wok",
+  "category": "mystiasdelight:equipments",
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "mystiasdelight:wok",
+      "link_recipe": true,
+      "text": "油锅用于炒菜或者油炸"
+    },
+    {
+      "type": "crafting",
+      "recipe": "mystiasdelight:wok_craft_recipe",
+      "text": "油锅需要一个热源，所以你可能会需要在底下放置一个炉灶或者岩浆块"
+    }
+  ]
+}

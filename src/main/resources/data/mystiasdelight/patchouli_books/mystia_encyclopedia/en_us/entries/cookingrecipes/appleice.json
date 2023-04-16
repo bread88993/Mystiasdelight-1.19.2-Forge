@@ -1,0 +1,17 @@
+{
+  "sortnum": 8,
+  "name": "Apple Ice",
+  "icon": "mystiasdelight:apple_ice",
+  "category": "mystiasdelight:cookingrecipes",
+  "advancement": "minecraft:story/form_obsidian",
+  "pages": [
+    {
+      "type": "text",
+      "text": "When in summer, I always prepare ice cream for my costumer. Eat the ice cream with apple can be cool and even resist the fire!"
+    },
+    {
+      "type": "text",
+      "text": "First, you need snow to cool down.$(br)Apple, a magic fruit!$(br)sugar, it will be tasty!$(br)You need do it by your hand, no fire!"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "sortnum": 5,
+  "name": "Cave Spicy Hotpot",
+  "icon": "mystiasdelight:cave_hotpot",
+  "category": "mystiasdelight:cookingrecipes",
+  "advancement": "minecraft:story/lava_bucket",
+  "pages": [
+    {
+      "type": "text",
+      "text": "The lava in old hell remind me the cave spicy hotpot.Although in the cave, you can make the spicy hotpot"
+    },
+    {
+      "type": "text",
+      "text": "First you should add some cured meat, it will have special flavor $(br)Chili pepper is important for the spicy hotpot$(br)salt, spicy and salty!$(br)Add some scallion to make the cuisine beautiful$(br)Spicy hotpot need pressure cooker, it will be delicious when cook a lot of time!"
+    },
+    {
+      "type": "text",
+      "text": "It is hard to find some vegetable in caves, but some explosion monster will drop the scallion. And we can even get the chili pepper when kill them on fire! Use a knife to kill them to get these material!"
+    }
+  ]
+}

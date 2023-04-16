@@ -1,0 +1,17 @@
+{
+  "sortnum": 3,
+  "name": "腌制肉片",
+  "icon": "mystiasdelight:cured_meat",
+  "category": "mystiasdelight:cookingrecipes",
+  "advancement": "minecraft:adventure/kill_a_mob",
+  "pages": [
+    {
+      "type": "text",
+      "text": "腐烂掉的肉太可惜了，我一般会把他们腌制然后卖给妖怪们，反正他们也吃不出来"
+    },
+    {
+      "type": "text",
+      "text": "首先你需要一片比较“年长”的肉$(br)加大量的盐！$(br)你需要拿手把他覆盖上，这个过程可能需要一段时间"
+    }
+  ]
+}

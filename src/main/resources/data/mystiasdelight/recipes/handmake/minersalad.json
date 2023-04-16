@@ -1,0 +1,21 @@
+{
+  "type": "mystiasdelight:handmake",
+  "ingredients": [
+    {
+      "item": "minecraft:glow_berries"
+    },
+    {
+      "item": "minecraft:brown_mushroom"
+    },
+    {
+      "tag": "forge:salt"
+    },
+    {
+      "item": "minecraft:bowl"
+    }
+  ],
+  "output": {
+    "item":"mystiasdelight:miner_salad"
+  },
+  "cookingtime": 150
+}
