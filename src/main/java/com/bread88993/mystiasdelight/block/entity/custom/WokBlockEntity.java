@@ -36,6 +36,7 @@ import net.minecraftforge.api.distmarker.OnlyIn;
 import net.minecraftforge.common.capabilities.Capability;
 import net.minecraftforge.common.capabilities.ForgeCapabilities;
 import net.minecraftforge.common.util.LazyOptional;
+import net.minecraftforge.items.CapabilityItemHandler;
 import net.minecraftforge.items.IItemHandler;
 import net.minecraftforge.items.ItemStackHandler;
 import net.minecraftforge.items.wrapper.RecipeWrapper;
@@ -271,13 +272,6 @@ public class WokBlockEntity extends BlockEntity implements MenuProvider, Heatabl
         };
     }
 
-    private static boolean HEAT(WokBlockEntity entity){
-        if(entity.isHeated()){
-            return true;
-        }else{
-            return false;
-        }
-    }
 
 
     @Override
@@ -295,8 +289,10 @@ public class WokBlockEntity extends BlockEntity implements MenuProvider, Heatabl
     @Override
     @Nonnull
     public <T> LazyOptional<T> getCapability(@Nonnull Capability<T> cap, @javax.annotation.Nullable Direction side) {
-        if (cap == ForgeCapabilities.ITEM_HANDLER) {
-            return lazyItemHandler.cast();
+        if (cap.equals(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY)) {
+            if (side == null) {
+                return lazyItemHandler.cast();
+            }
         }
 
         return super.getCapability(cap, side);
@@ -341,13 +337,12 @@ public class WokBlockEntity extends BlockEntity implements MenuProvider, Heatabl
         }
     }
 
-    @OnlyIn(Dist.CLIENT)
-    public static void animateTick(Level world, BlockPos pos, BlockState blockstate, WokBlockEntity fry) {
-        BlockEntity tileEntity = world.getBlockEntity(pos);
+
+    public static void animateTick(Level world, BlockPos pos, BlockState tileEntity, WokBlockEntity fry) {
         int x = pos.getX();
         int y = pos.getY();
         int z = pos.getZ();
-        if (tileEntity instanceof WokBlockEntity && ((WokBlockEntity) tileEntity).isHeated()) {
+        if (fry.isHeated(world,pos)) {
             RandomSource random = world.random;
             for (int l = 0; l < 2; ++l) {
                 double x0 = x + 0.5 + (random.nextFloat() - 0.5) * 0.5D;

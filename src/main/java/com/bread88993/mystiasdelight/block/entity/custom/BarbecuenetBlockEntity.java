@@ -32,6 +32,8 @@ import net.minecraft.world.item.crafting.Recipe;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.entity.BlockEntity;
+import net.minecraft.world.level.block.entity.BlockEntityTicker;
+import net.minecraft.world.level.block.entity.BlockEntityType;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.api.distmarker.OnlyIn;
@@ -292,11 +294,17 @@ public class BarbecuenetBlockEntity extends BlockEntity implements MenuProvider,
     @Nonnull
     public <T> LazyOptional<T> getCapability(@Nonnull Capability<T> cap, @javax.annotation.Nullable Direction side) {
         if (cap == ForgeCapabilities.ITEM_HANDLER) {
-            return lazyItemHandler.cast();
+            if (side == null) {
+                return lazyItemHandler.cast();
+            }
         }
 
         return super.getCapability(cap, side);
     }
+
+
+
+
 
 
     private ContainerData createIntArray() {
@@ -343,12 +351,10 @@ public class BarbecuenetBlockEntity extends BlockEntity implements MenuProvider,
 
     public static void animateTick(Level world, BlockPos pos, BlockState blockstate, BarbecuenetBlockEntity barbecue) {
 
-        Player entity = Minecraft.getInstance().player;
-        BlockEntity tileEntity = world.getBlockEntity(pos);
         int x = pos.getX();
         int y = pos.getY();
         int z = pos.getZ();
-        if (tileEntity instanceof BarbecuenetBlockEntity && ((BarbecuenetBlockEntity) tileEntity).isHeated()) {
+        if (barbecue.isHeated(world,pos)) {
             RandomSource random = world.random;
             for (int l = 0; l < 2; ++l) {
                 double x0 = x + 0.5 + (random.nextFloat() - 0.5) * 0.5D;
@@ -363,5 +369,7 @@ public class BarbecuenetBlockEntity extends BlockEntity implements MenuProvider,
 
         }
     }
+
+
 
 }

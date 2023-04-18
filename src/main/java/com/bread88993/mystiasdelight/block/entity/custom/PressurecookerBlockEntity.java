@@ -286,7 +286,9 @@ public class PressurecookerBlockEntity extends BlockEntity implements MenuProvid
     @Nonnull
     public <T> LazyOptional<T> getCapability(@Nonnull Capability<T> cap, @javax.annotation.Nullable Direction side) {
         if (cap == ForgeCapabilities.ITEM_HANDLER) {
-            return lazyItemHandler.cast();
+            if(side == null){
+                return lazyItemHandler.cast();
+            }
         }
 
         return super.getCapability(cap, side);
@@ -332,11 +334,10 @@ public class PressurecookerBlockEntity extends BlockEntity implements MenuProvid
     }
 
     public static void animateTick(Level world, BlockPos pos, BlockState blockstate, PressurecookerBlockEntity press) {
-        BlockEntity tileEntity = world.getBlockEntity(pos);
         int x = pos.getX();
         int y = pos.getY();
         int z = pos.getZ();
-        if (tileEntity instanceof PressurecookerBlockEntity && ((PressurecookerBlockEntity) tileEntity).isHeated()) {
+        if (press.isHeated(world,pos)) {
             RandomSource random = world.random;
             for (int l = 0; l < 2; ++l) {
                 double x0 = x + 0.5 + (random.nextFloat() - 0.5) * 0.5D;

@@ -278,7 +278,9 @@ public class CookingtableBlockEntity extends BlockEntity implements MenuProvider
     @Nonnull
     public <T> LazyOptional<T> getCapability(@Nonnull Capability<T> cap, @javax.annotation.Nullable Direction side) {
         if (cap == ForgeCapabilities.ITEM_HANDLER) {
-            return lazyItemHandler.cast();
+            if (side == null) {
+                return lazyItemHandler.cast();
+            }
         }
 
         return super.getCapability(cap, side);

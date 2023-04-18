@@ -272,14 +272,6 @@ public class SteamerBlockEntity extends BlockEntity implements MenuProvider, Hea
         };
     }
 
-    private static boolean HEAT(SteamerBlockEntity entity){
-        if(entity.isHeated()){
-            return true;
-        }else{
-            return false;
-        }
-    }
-
 
     @Override
     @Nonnull
@@ -310,7 +302,9 @@ public class SteamerBlockEntity extends BlockEntity implements MenuProvider, Hea
     @Nonnull
     public <T> LazyOptional<T> getCapability(@Nonnull Capability<T> cap, @javax.annotation.Nullable Direction side) {
         if (cap == ForgeCapabilities.ITEM_HANDLER) {
-            return lazyItemHandler.cast();
+            if (side == null) {
+                return lazyItemHandler.cast();
+            }
         }
 
         return super.getCapability(cap, side);
@@ -357,12 +351,11 @@ public class SteamerBlockEntity extends BlockEntity implements MenuProvider, Hea
 
 
     public static void animateTick(Level world, BlockPos pos, BlockState blockstate, SteamerBlockEntity steam) {
-        Player entity = Minecraft.getInstance().player;
         BlockEntity tileEntity = world.getBlockEntity(pos);
         int x = pos.getX();
         int y = pos.getY();
         int z = pos.getZ();
-        if (tileEntity instanceof SteamerBlockEntity && ((SteamerBlockEntity) tileEntity).isHeated()) {
+        if (steam.isHeated(world,pos)) {
             RandomSource random = world.random;
             for (int l = 0; l < 2; ++l) {
                 double x0 = x + 0.5 + (random.nextFloat() - 0.5) * 0.5D;

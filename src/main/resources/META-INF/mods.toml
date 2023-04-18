@@ -9,7 +9,7 @@ modId="mystiasdelight"
 version="${file.jarVersion}"
 displayName="Mystia's Delight"
 displayURL="https://space.bilibili.com/8160207"
-logoFile="examplemod.png" #optional
+logoFile="toho.png" #optional
 
 credits="Vectorwing! Kaupenjoe! sz0999312! 943! Vazkii,Williewillus and Hubry! mezz! StardewValley! kk! ZUN! And YOU!" #optional
 
@@ -17,7 +17,7 @@ authors="Bread88993" #optional
 
 description='''
 Thanks for vectorwing's farmer's delight!
-It is a mod you can enjoy cooking!
+It is a fantasy cooking mod!
 '''
 # A dependency - use the . to indicate dependency for a specific modid. Dependencies are optional.
 [[dependencies.mystiasdelight]] #optional
